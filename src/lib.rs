@@ -33,7 +33,7 @@ mod tell;
 pub mod value;
 
 use event::EventData;
-use serde_derive::Serialize;
+use serde::Serialize;
 
 use errors::{BinlogParseError, EventParseError};
 
